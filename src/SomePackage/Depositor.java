@@ -8,7 +8,7 @@ public class Depositor implements Runnable{
 	}
 	
 	public void run() {
-		for (int i=0;i<1000;i++)
+		for (int i=0;i<1005;i++)
 			counter.addOne();
 	}
 }
